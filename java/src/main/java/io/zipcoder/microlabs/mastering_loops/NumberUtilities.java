@@ -8,7 +8,7 @@ public class NumberUtilities {
         for (int i = start; i < stop; i = + step) {
             result = result + Math.pow(i, exponent);
             //Turn to int then to a String
-            result = result + Math.round(Math.pow(i, exponent));
+            result = result + Integer.toString((int) Math.pow(i, exponent));
         
         }
         return result;
