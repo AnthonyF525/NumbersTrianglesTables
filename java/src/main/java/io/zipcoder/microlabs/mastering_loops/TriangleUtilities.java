@@ -15,7 +15,7 @@ public class TriangleUtilities {
     public static String getTriangle(int numberOfRows) {
         String result = "";
         int i = 1;
-        while (i <= numberOfRows) {
+        while (i < numberOfRows) {
             result = result + getRow(i) + "\n";
             i++;
         }
